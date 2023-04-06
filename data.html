@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href=https://imgs.search.brave.com/l6CYfIPz68evEKtTBVwYZJ43do3KQrBnYKLBjI8iDig/rs:fit:391:382:1/g:ce/aHR0cHM6Ly93d3cu/dHVjc29uYXouZ292/L2ZpbGVzL3dhdGVy/L2ltZy9SRUJBVEVf/SUNPTl9SYWlud2F0/ZXJIYXJ2ZXN0LnBu/Zw>
+    <title>Data</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+:root {
+  --primary-color: #000839;
+  --primary-shades: #00020b;
+  --para-color: #80849c;
+  --helper-color: #1264fa;
+  --white: #fff;
+  --bg-color: #e6e6eb;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--primary-color);
+}
+
+.para {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--para-color);
+}
+
+.header {
+  height: 9.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5.4rem;
+  position: relative;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+  font-size: 1.5rem;
+}
+
+.navbar-list .navbar-btn {
+  padding: 1.2rem 2.4rem;
+  background-color: var(--white);
+  border: 1px solid var(--helper-color);
+  color: var(--helper-color);
+  border-radius: 5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-list .navbar-link:hover,
+.navbar-list .navbar-link:active {
+  color: var(--helper-color);
+}
+
+.navbar-btn:hover,
+.navbar-btn:active {
+  background-color: var(--helper-color);
+  color: var(--white);
+}
+
+.navbar-link {
+  text-transform: uppercase;
+}
+
+.mobile-nav-icon {
+  font-size: 4rem;
+  color: var(--primary-color);
+}
+
+.mobile-navbar-btn {
+  display: none;
+}
+
+.mobile-nav-icon[name="close"] {
+  display: none;
+}
+main{
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-top: 2em;
+}
+.hero-image {
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.hero-image img {
+  height: 90%;
+  width: 50em;
+  box-shadow: 0 0 20rem 0 rgba(0, 0, 0, 0.1);
+}
+.primary-heading {
+  font-size: 6rem;
+  font-weight: 700;
+}
+.secondary-heading{
+    font-size:2rem;
+    font-weight:700;
+}
+
+    </style>
+  </head>
+  <body>
+    <header class="header">
+    <a href="D:\Project CSE\credits.html"  class="logo">JAL HI JEEVAN</a>
+    <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a href="D:\Project CSE\home.html" class="navbar-link"> Home </a></li>
+          <li><a href="D:\Project CSE\About_rwh.html" class="navbar-link"> About R.W.H </a></li>
+          <li><a href="D:\Project CSE\techniques.html" class="navbar-link"> Techniques </a></li>
+          <li><a href="D:\Project CSE\data.html" class="navbar-link"> Data </a></li>
+          <li><a href="D:\Project CSE\contact.html" class="navbar-link"> Contact </a></li>
+          <li><a href="D:\Project CSE\credits.html" class="btn navbar-btn"> Credits </a></li>
+        </ul>
+      </nav>
+      <div class="mobile-navbar-btn">
+        <ion-icon name="menu" class="mobile-nav-icon"></ion-icon>
+        <ion-icon name="close" class="mobile-nav-icon"></ion-icon>
+      </div>
+      </header>
+      <main>
+        <section class="section section-hero">
+            <div class="container grid grid-two-column">
+              <div class="hero-data">
+                <h1 class="primary-heading"><br>How Much Rainwater Can Be Harvested?</h1><br>
+                <p class="para">Explained below is an illustrative theoretical calculation that
+                   explains the massive potential for rain water harvesting. This same procedure 
+                   can be used to get the potential for any plot of land or roof top area, using
+                    rainfall data for a particular area.<br><br>
+                      <div class="hero-image">
+                          <img
+                          src="C:\C Programming\che 110 project\data.jpg"
+                          class="image"
+                        />
+                        </div>
+                  <p class="para"><br><br>
+                    In the example, consider the area of the plot as 100 sq.m. The 
+                    average annual rainfall in Chennai is approximately 44 inches or 1100 mm.<br>
+
+                    Area of plot = 100 sq.m.<br><br>
+                    
+                    Height of rainfall = 1.1 m (1100 mm or 44 inches)<br><br>
+                    
+                    Total volume of rainfall over the area of plot = Area of plot X Height of rainfall =
+                    
+                    100 sq.m. x 1.1 m = 110 cu.m. (1,10,000 litres)<br><br>
+                    
+                    Assuming that only 60 percent of the total rainfall is effectually harvested,
+                     the volume of water harvested = 66,000 litres.<br><br>
+                    
+                    This volume is about 4 times the annual drinking water requirement of a 5-member 
+                    family. The average daily water requirement per person is 10 litres according to
+                     IS 1172: Indian Standard Code of Basic Requirements for Water Supply, Drainage 
+                     and Sanitation.
+                    </p>
+                  </p>
+                  <h1 class="primary-heading"><br>How Rain Water Harvesting Solves Water Shortage?</h1>
+                  <br>
+                    <div class="hero-image">
+                      <img
+                      src="C:\C Programming\che 110 project\data1.jpg"
+                      class="image"
+                    />
+                    </div><br>
+                    <p class="para">
+                    Harvesting and collection of rainwater is a proper way that can be used to address 
+                    the problem of the water crisis in various parts of the world. This simple water 
+                    conservation method can be used to put forward a remarkable solution in areas where
+                     there is enough rainfall but not enough supply of groundwater.<br><br>
+
+                   Bangalore is an excellent example where rainwater harvesting can become very beneficial. 
+                   Bangalore is an area with a very high population and an area that also has to deal with 
+                   water shortages. With these in mind, practicing water conservation methods such as 
+                   rainwater harvesting is an ideal way to ensure an increased supply of water.<br><br>
+
+                   Bangalore experiences quite an immense amount of rainfall almost throughout the year.
+                    Hence, rainwater harvesting will play a huge role in providing additional sources of 
+                    water. During the dry season, people will be able to have water sources if they have
+                     implemented the necessary kind of harvesting techniques. With an increased demand
+                      for water, rainwater collection can be able to meet the requirements.<br><br>
+
+                  When builders and architects are designing a new home or building, it is important that they think of
+                  implementing rainwater harvesting methods. It will be able to reduce reliability on other natural
+                   resources for groundwater. In the long run, there will be energy savings, water savings, and resource savings.<br><br>
+                    </p>
+            </div><br><br>
+            </div>
+          </main>
+  </body>
+  </html>
